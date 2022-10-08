@@ -13,7 +13,6 @@ const schemaData= new mongoose.Schema({
     }
 })
 
-
 const demo = new mongoose.model('demo', schemaData);
 
 module.exports = demo;
